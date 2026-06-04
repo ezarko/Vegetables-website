@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Use — JUST. for vegetables</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="/">JUST. for vegetables</a>
+  <ul class="nav-links">
+    <li><a href="/#how">How It Works</a></li>
+    <li><a href="/#features">Features</a></li>
+    <li><a href="/#pricing">Pricing</a></li>
+    <li><a href="/#faq">FAQ</a></li>
+    <li><a href="/#cta" class="nav-cta">Download</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/#how" onclick="closeMenu()">How It Works</a>
+  <a href="/#features" onclick="closeMenu()">Features</a>
+  <a href="/#pricing" onclick="closeMenu()">Pricing</a>
+  <a href="/#faq" onclick="closeMenu()">FAQ</a>
+  <a href="/#cta" onclick="closeMenu()">Download</a>
+</div>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="label">Legal</div>
+  <h1>Terms of Use</h1>
+  <p class="meta">Effective date: April 2, 2026</p>
+</div>
+
+<!-- TERMS -->
+<div class="policy-wrap">
+
+  <p>These Terms of Use (&ldquo;Terms&rdquo;) govern your use of JUST. for vegetables (the &ldquo;App&rdquo;), developed and published by Eric A. Zarko (&ldquo;we&rdquo;, &ldquo;us&rdquo;). By downloading or using the App, you agree to these Terms. If you do not agree, do not use the App.</p>
+
+  <h2>Use of the App</h2>
+  <p>JUST. for vegetables is a personal food-tracking tool. You may use it for your own household and family purposes. You agree not to:</p>
+  <ul>
+    <li>Use the App for any unlawful purpose</li>
+    <li>Attempt to reverse-engineer, decompile, or tamper with the App or its backend services</li>
+    <li>Use the App in any way that could damage, disable, or impair our servers or infrastructure</li>
+    <li>Share your account credentials with anyone outside your family plan</li>
+  </ul>
+
+  <h2>Accounts and Sign In</h2>
+  <p>The App uses Sign in with Apple for authentication. You are responsible for maintaining the security of your Apple ID. We are not responsible for any loss resulting from unauthorized access to your account.</p>
+
+  <h2>Subscriptions and Billing</h2>
+  <p>The App offers optional paid subscriptions (Premium Solo and Premium Family) that unlock additional features. All subscriptions are purchased and managed through Apple&rsquo;s App Store. By subscribing, you also agree to Apple&rsquo;s terms of service.</p>
+  <ul>
+    <li>Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current billing period</li>
+    <li>You can manage or cancel your subscription at any time through your Apple ID account settings</li>
+    <li>We do not issue refunds — all refund requests must be directed to Apple</li>
+  </ul>
+
+  <h2>Your Content</h2>
+  <p>You retain ownership of the content you add to the App — your food items, photos, and notes. By using the App, you grant us a limited license to store and sync that content solely for the purpose of providing the service to you and your family members. We do not claim any ownership over your content.</p>
+
+  <h2>Family Sharing</h2>
+  <p>If you invite family members to a shared account, all members of that family account can view and edit the shared food data. You are responsible for who you invite. We are not responsible for actions taken by members of your family account.</p>
+
+  <h2>Disclaimer of Warranties</h2>
+  <p>The App is provided &ldquo;as is&rdquo; without warranties of any kind, express or implied. We do not warrant that the App will be error-free, uninterrupted, or that expiration notifications will be delivered at any specific time. Food safety decisions remain your own responsibility.</p>
+
+  <h2>Limitation of Liability</h2>
+  <p>To the maximum extent permitted by law, we are not liable for any indirect, incidental, or consequential damages arising from your use of the App, including any loss resulting from reliance on expiration dates or notifications within the App.</p>
+
+  <h2>Termination</h2>
+  <p>We reserve the right to suspend or terminate access to the App if you violate these Terms. You may stop using the App at any time. Upon termination, you may request deletion of your data by contacting us at <a href="mailto:support@justforleftovers.com">support@justforleftovers.com</a>.</p>
+
+  <h2>Changes to These Terms</h2>
+  <p>We may update these Terms from time to time. When we do, we will update the effective date above. Continued use of the App after changes are posted constitutes your acceptance of the revised Terms.</p>
+
+  <h2>Governing Law</h2>
+  <p>These Terms are governed by the laws of the State of California, United States, without regard to its conflict of law provisions.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about these Terms? Reach us at <a href="mailto:support@justforleftovers.com">support@justforleftovers.com</a>.</p>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Use</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+  <p>&copy; 2026 JUST. for vegetables. All rights reserved.</p>
+</footer>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+  function closeMenu() { mobileMenu.classList.remove('open'); }
+</script>
+</body>
+</html>

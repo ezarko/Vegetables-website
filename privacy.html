@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — JUST. for vegetables</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="/">JUST. for vegetables</a>
+  <ul class="nav-links">
+    <li><a href="/#how">How It Works</a></li>
+    <li><a href="/#features">Features</a></li>
+    <li><a href="/#pricing">Pricing</a></li>
+    <li><a href="/#faq">FAQ</a></li>
+    <li><a href="/#cta" class="nav-cta">Download</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/#how" onclick="closeMenu()">How It Works</a>
+  <a href="/#features" onclick="closeMenu()">Features</a>
+  <a href="/#pricing" onclick="closeMenu()">Pricing</a>
+  <a href="/#faq" onclick="closeMenu()">FAQ</a>
+  <a href="/#cta" onclick="closeMenu()">Download</a>
+</div>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="label">Legal</div>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: April 2, 2026</p>
+</div>
+
+<!-- POLICY -->
+<div class="policy-wrap">
+
+  <p>JUST. for vegetables (&ldquo;JUST.&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is developed and published by Eric A. Zarko. This policy explains what information we collect, how we use it, and what choices you have.</p>
+
+  <h2>Information We Collect</h2>
+  <p>We collect only what's necessary to provide the app's features:</p>
+  <ul>
+    <li><strong>Account information.</strong> When you sign in with Apple, we receive a unique user identifier and, if you choose to share it, your email address. We use this to identify your account and nothing else.</li>
+    <li><strong>Vegetable data.</strong> The items you add — names, expiration dates, storage locations, and any notes — are stored in our systems so they can sync across your devices and with your family members.</li>
+    <li><strong>Photos.</strong> If you attach a photo to a vegetable item, that image is uploaded to our servers and associated with your account.</li>
+    <li><strong>Family membership data.</strong> If you use Family Sharing, we store the association between your account and the accounts of your family members, along with the invite codes used to establish those connections.</li>
+    <li><strong>Subscription status.</strong> We receive confirmation from Apple that you hold an active subscription. We do not receive your payment details — all billing is handled entirely by Apple.</li>
+  </ul>
+
+  <h2>How We Use Your Information</h2>
+  <ul>
+    <li>To sync your vegetable data across your devices and with your family members</li>
+    <li>To send expiration notifications at the times you've configured</li>
+    <li>To verify your subscription and unlock the appropriate features</li>
+    <li>To respond to support requests you initiate</li>
+  </ul>
+  <p>We do not use your data for advertising, analytics profiling, or any purpose beyond operating the app.</p>
+
+  <h2>Data Storage and Security</h2>
+  <p>Your data is stored on servers hosted in the United States. We use industry-standard security practices to protect your information in transit and at rest. Access is restricted to what is necessary to operate the service.</p>
+
+  <h2>Sharing Your Information</h2>
+  <p>We do not sell, rent, or share your personal information with third parties, except:</p>
+  <ul>
+    <li><strong>Apple.</strong> Authentication and subscription management flow through Apple's systems under their privacy policy.</li>
+    <li><strong>Family members you invite.</strong> Vegetable data you add is visible to other members of your family account by design.</li>
+    <li><strong>Legal requirements.</strong> We may disclose information if required to do so by law.</li>
+  </ul>
+
+  <h2>Data Retention and Deletion</h2>
+  <p>Your data is retained for as long as you have an account with JUST. To delete your account and all associated data, contact us at <a href="mailto:support@justforleftovers.com">support@justforleftovers.com</a> and we will process your request promptly.</p>
+
+  <h2>Children&rsquo;s Privacy</h2>
+  <p>JUST. is not directed at children under 13 and we do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If we make material changes to this policy, we will update the effective date above and, where appropriate, notify you through the app. Your continued use of JUST. after any changes constitutes your acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or concerns? Reach us at <a href="mailto:support@justforleftovers.com">support@justforleftovers.com</a>.</p>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="/privacy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Use</a>
+    <a href="/contact.html">Contact</a>
+  </div>
+  <p>&copy; 2026 JUST. for vegetables. All rights reserved.</p>
+</footer>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+  hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+  function closeMenu() { mobileMenu.classList.remove('open'); }
+</script>
+</body>
+</html>
